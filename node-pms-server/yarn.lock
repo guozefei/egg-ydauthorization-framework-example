@@ -1892,8 +1892,8 @@ d@1:
     es5-ext "^0.10.9"
 
 damerau-levenshtein@^1.0.4:
-  version "1.0.4"
-  resolved "http://npm.deploy.ml/damerau-levenshtein/-/damerau-levenshtein-1.0.4.tgz#03191c432cb6eea168bb77f3a55ffdccb8978514"
+  version "1.0.5"
+  resolved "http://npm.deploy.ml/damerau-levenshtein/-/damerau-levenshtein-1.0.5.tgz#780cf7144eb2e8dbd1c3bb83ae31100ccc31a414"
 
 dargs@^6.0.0:
   version "6.1.0"
@@ -4639,8 +4639,8 @@ nunjucks@^3.1.3:
     chokidar "^2.0.0"
 
 nyc@^14.1.0:
-  version "14.1.0"
-  resolved "http://npm.deploy.ml/nyc/-/nyc-14.1.0.tgz#ae864913a4c5a947bfaebeb66a488bdb1868c9a3"
+  version "14.1.1"
+  resolved "http://npm.deploy.ml/nyc/-/nyc-14.1.1.tgz#151d64a6a9f9f5908a1b73233931e4a0a3075eeb"
   dependencies:
     archy "^1.0.0"
     caching-transform "^3.0.2"
@@ -5514,8 +5514,8 @@ run-async@^2.2.0:
     is-promise "^2.1.0"
 
 rxjs@^6.4.0:
-  version "6.5.1"
-  resolved "http://npm.deploy.ml/rxjs/-/rxjs-6.5.1.tgz#f7a005a9386361921b8524f38f54cbf80e5d08f4"
+  version "6.5.2"
+  resolved "http://npm.deploy.ml/rxjs/-/rxjs-6.5.2.tgz#2e35ce815cd46d84d02a209fb4e5921e051dbec7"
   dependencies:
     tslib "^1.9.0"
 
@@ -5956,8 +5956,8 @@ swap-case@^1.1.0:
     upper-case "^1.1.1"
 
 table@^5.2.3:
-  version "5.2.3"
-  resolved "http://npm.deploy.ml/table/-/table-5.2.3.tgz#cde0cc6eb06751c009efab27e8c820ca5b67b7f2"
+  version "5.3.2"
+  resolved "http://npm.deploy.ml/table/-/table-5.3.2.tgz#3aab56a41b2905bf66a6a006bd716fa1e78d4702"
   dependencies:
     ajv "^6.9.1"
     lodash "^4.17.11"
@@ -6381,7 +6381,7 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.3"
   resolved "http://npm.deploy.ml/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
 
-yargs-parser@13.0.0, yargs-parser@^13.0.0:
+yargs-parser@13.0.0:
   version "13.0.0"
   resolved "http://npm.deploy.ml/yargs-parser/-/yargs-parser-13.0.0.tgz#3fc44f3e76a8bdb1cc3602e860108602e5ccde8b"
   dependencies:
@@ -6391,6 +6391,13 @@ yargs-parser@13.0.0, yargs-parser@^13.0.0:
 yargs-parser@^11.0.0, yargs-parser@^11.1.1:
   version "11.1.1"
   resolved "http://npm.deploy.ml/yargs-parser/-/yargs-parser-11.1.1.tgz#879a0865973bca9f6bab5cbdf3b1c67ec7d3bcf4"
+  dependencies:
+    camelcase "^5.0.0"
+    decamelize "^1.2.0"
+
+yargs-parser@^13.0.0:
+  version "13.1.0"
+  resolved "http://npm.deploy.ml/yargs-parser/-/yargs-parser-13.1.0.tgz#7016b6dd03e28e1418a510e258be4bff5a31138f"
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"

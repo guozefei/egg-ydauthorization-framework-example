@@ -1,7 +1,7 @@
 {
-  "name": "ydauthorization-framework-example",
+  "name": "node-pms-server",
   "version": "1.0.0",
-  "description": "example for egg-ydauthorization-framework",
+  "description": "",
   "private": true,
   "egg": {
     "framework": "egg-ydauthorization-framework"
@@ -22,8 +22,8 @@
     "node": ">=10.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-ydauthorization-framework-example --port=8375",
-    "stop": "egg-scripts stop --title=egg-server-ydauthorization-framework-example",
+    "start": "egg-scripts start --daemon --title=egg-server-node-pms-server",
+    "stop": "egg-scripts stop --title=egg-server-node-pms-server",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug --port=8375",
     "test": "npm run lint -- --fix && npm run test-local",

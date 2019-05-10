@@ -1,8 +1,8 @@
 {
   "config": {
     "session": {
-      "maxAge": 7200000,
-      "key": "egg-passport-neteasecorp:sess",
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true,
       "overwrite": true,
@@ -86,28 +86,26 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-onerror@2.1.0@egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-session@3.1.0@egg-session/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-security@2.5.0@egg-security/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-onerror@2.1.0@egg-onerror/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-i18n@2.1.1@egg-i18n/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-watcher@3.1.0@egg-watcher/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-schedule@3.6.2@egg-schedule/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-multipart@2.5.0@egg-multipart/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-development@2.4.3@egg-development/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-static@2.2.0@egg-static/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-view@2.1.2@egg-view/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-passport@2.0.1@egg-passport/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-passport-neteasecorp@1.0.1@egg-passport-neteasecorp/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework/config/locales",
-        "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/config/locales"
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-session\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-security\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-jsonp\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-onerror\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-i18n\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-watcher\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-schedule\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-multipart\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-development\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-logrotator\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-static\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-view\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-ydauthorization-framework\\config\\locales",
+        "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -118,8 +116,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/default",
-        "development": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-watcher@3.1.0@egg-watcher/lib/event-sources/development"
+        "default": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -142,7 +140,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/m0/pmdvxjcx0tz907l_0fk816gh0000gn/T/egg-multipart-tmp/ydauthorization-framework-example",
+      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\node-pms-server",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -165,40 +163,31 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/app/public",
+      "dir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/app/view",
+      "root": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
     },
-    "passportNeteasecorp": {
-      "key": "0480dd646a4d11e9889d246e965dfd84",
-      "secret": "<String len: 64>",
-      "callbackURL": "http://notesandbox.youdao.com/yns/passport/neteasecorp/callback",
-      "scope": "openid email",
-      "passReqToCallback": true,
-      "clientID": "0480dd646a4d11e9889d246e965dfd84",
-      "clientSecret": "<String len: 64>"
-    },
     "env": "local",
-    "name": "ydauthorization-framework-example",
-    "keys": "<String len: 52>",
+    "name": "node-pms-server",
+    "keys": "<String len: 34>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "ydauthorization-framework-example",
+      "name": "node-pms-server",
       "version": "1.0.0",
-      "description": "example for egg-ydauthorization-framework",
+      "description": "",
       "private": true,
       "egg": {
         "framework": "egg-ydauthorization-framework"
@@ -219,8 +208,8 @@
         "node": ">=10.0.0"
       },
       "scripts": {
-        "start": "egg-scripts start --daemon --title=egg-server-ydauthorization-framework-example --port=8375",
-        "stop": "egg-scripts stop --title=egg-server-ydauthorization-framework-example",
+        "start": "egg-scripts start --daemon --title=egg-server-node-pms-server",
+        "stop": "egg-scripts stop --title=egg-server-node-pms-server",
         "dev": "egg-bin dev",
         "debug": "egg-bin debug --port=8375",
         "test": "npm run lint -- --fix && npm run test-local",
@@ -240,9 +229,9 @@
       "author": "guozf",
       "license": "MIT"
     },
-    "baseDir": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server",
-    "HOME": "/Users/guozefei",
-    "rundir": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/run",
+    "baseDir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server",
+    "HOME": "C:\\Users\\Administrator",
+    "rundir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -273,7 +262,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/logs/ydauthorization-framework-example",
+      "dir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\logs\\node-pms-server",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -281,7 +270,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "ydauthorization-framework-example-web.log",
+      "appLogName": "node-pms-server-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -302,17 +291,13 @@
         "keepAlive": true,
         "freeSocketTimeout": 4000,
         "maxSockets": 9007199254740991,
-        "maxFreeSockets": 256,
-        "timeout": 30000,
-        "socketActiveTTL": 0
+        "maxFreeSockets": 256
       },
       "httpsAgent": {
         "keepAlive": true,
         "freeSocketTimeout": 4000,
         "maxSockets": 9007199254740991,
-        "maxFreeSockets": 256,
-        "timeout": 30000,
-        "socketActiveTTL": 0
+        "maxFreeSockets": 256
       }
     },
     "meta": {
@@ -329,9 +314,7 @@
       "session",
       "securities",
       "i18n",
-      "eggLoaderTrace",
-      "passportInitialize",
-      "passportSession"
+      "eggLoaderTrace"
     ],
     "workerStartTimeout": 600000,
     "serverTimeout": null,
@@ -348,9 +331,8 @@
     },
     "onClientError": null,
     "test": {
-      "key": "ydauthorization-framework-example_123456"
+      "key": "node-pms-server_123456"
     },
-    "ydAuthorization": {},
     "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
@@ -376,8 +358,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-session@3.1.0@egg-session",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -389,8 +371,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-security@2.5.0@egg-security",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -402,8 +384,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -415,8 +397,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-onerror@2.1.0@egg-onerror",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -426,8 +408,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-i18n@2.1.1@egg-i18n",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -437,8 +419,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-watcher@3.1.0@egg-watcher",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -448,8 +430,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-schedule@3.6.2@egg-schedule",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-schedule",
       "version": "3.6.2"
     },
     "multipart": {
@@ -461,8 +443,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-multipart@2.5.0@egg-multipart",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-multipart",
       "version": "2.5.0"
     },
     "development": {
@@ -476,8 +458,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-development@2.4.3@egg-development",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -489,8 +471,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -500,8 +482,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-static@2.2.0@egg-static",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -511,35 +493,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg@2.22.2@egg/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-view@2.1.2@egg-view",
+      "from": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\plugin.js",
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-view",
       "version": "2.1.2"
-    },
-    "passport": {
-      "enable": true,
-      "package": "egg-passport",
-      "name": "passport",
-      "dependencies": [
-        "session"
-      ],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-passport@2.0.1@egg-passport",
-      "version": "2.0.1"
-    },
-    "passportNeteasecorp": {
-      "enable": true,
-      "package": "egg-passport-neteasecorp",
-      "name": "passportNeteasecorp",
-      "dependencies": [
-        "passport"
-      ],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework/config/plugin.js",
-      "path": "/Users/guozefei/git/egg-ydauthorization-framework-example/node-pms-server/node_modules/_egg-passport-neteasecorp@1.0.1@egg-passport-neteasecorp",
-      "version": "1.0.1"
     }
   }
 }

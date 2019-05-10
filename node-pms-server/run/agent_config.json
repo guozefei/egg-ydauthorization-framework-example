@@ -110,7 +110,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\ydauthorization-framework-example",
+      "tmpdir": "C:\\Users\\ADMINI\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\node-pms-server",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -147,17 +147,17 @@
       "mapping": {}
     },
     "env": "local",
-    "name": "ydauthorization-framework-example",
-    "keys": "<String len: 52>",
+    "name": "node-pms-server",
+    "keys": "<String len: 34>",
     "proxy": false,
     "maxProxyCount": 0,
     "protocolHeaders": "x-forwarded-proto",
     "ipHeaders": "x-forwarded-for",
     "hostHeaders": "",
     "pkg": {
-      "name": "ydauthorization-framework-example",
+      "name": "node-pms-server",
       "version": "1.0.0",
-      "description": "example for egg-ydauthorization-framework",
+      "description": "",
       "private": true,
       "egg": {
         "framework": "egg-ydauthorization-framework"
@@ -178,8 +178,8 @@
         "node": ">=10.0.0"
       },
       "scripts": {
-        "start": "egg-scripts start --daemon --title=egg-server-ydauthorization-framework-example --port=8375",
-        "stop": "egg-scripts stop --title=egg-server-ydauthorization-framework-example",
+        "start": "egg-scripts start --daemon --title=egg-server-node-pms-server",
+        "stop": "egg-scripts stop --title=egg-server-node-pms-server",
         "dev": "egg-bin dev",
         "debug": "egg-bin debug --port=8375",
         "test": "npm run lint -- --fix && npm run test-local",
@@ -231,7 +231,7 @@
       }
     },
     "logger": {
-      "dir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\logs\\ydauthorization-framework-example",
+      "dir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\logs\\node-pms-server",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -239,7 +239,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "ydauthorization-framework-example-web.log",
+      "appLogName": "node-pms-server-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
@@ -295,7 +295,7 @@
     },
     "onClientError": null,
     "test": {
-      "key": "ydauthorization-framework-example_123456"
+      "key": "node-pms-server_123456"
     },
     "middleware": [],
     "coreMiddlewares": "~config~coreMiddleware",

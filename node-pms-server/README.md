@@ -1,6 +1,6 @@
-# ydauthorization-framework-example
+# node-pms-server
 
-example for egg-ydauthorization-framework
+
 
 ## QuickStart
 
