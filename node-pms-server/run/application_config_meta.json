@@ -2,8 +2,8 @@
   "keys": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\config\\config.default.js",
   "middleware": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\config\\config.default.js",
   "session": {
-    "maxAge": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-session\\config\\config.default.js",
+    "maxAge": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js",
+    "key": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js",
     "httpOnly": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-session\\config\\config.default.js",
     "encrypt": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-session\\config\\config.default.js"
   },
@@ -143,147 +143,157 @@
     "defaultViewEngine": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "name": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "maxProxyCount": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+  "passportNeteasecorp": {
+    "key": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js",
+    "secret": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js",
+    "callbackURL": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js",
+    "scope": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-passport-neteasecorp\\config\\config.default.js"
+  },
+  "env": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "name": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "proxy": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "maxProxyCount": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "protocolHeaders": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "ipHeaders": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "hostHeaders": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
   "pkg": {
-    "name": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "version": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "description": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "private": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+    "name": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "version": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "description": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "private": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
     "egg": {
-      "framework": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "declarations": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "framework": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "dependencies": {
-      "egg-ydauthorization-framework": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "egg": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "egg-scripts": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "egg-ydauthorization-framework": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "autod-egg": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-bin": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-ci": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "egg-mock": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "eslint": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "eslint-config-egg": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "autod": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "autod-egg": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "egg-bin": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "egg-ci": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "egg-mock": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "eslint": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "eslint-config-egg": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "node": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "stop": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "dev": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "debug": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "test": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "test-local": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "cov": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "lint": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "ci": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "autod": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "start": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "stop": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "dev": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "debug": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "test": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "test-local": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "cov": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "lint": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "ci": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "autod": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "version": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "url": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "type": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "url": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
-    "author": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "license": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "author": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "license": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
-  "baseDir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "HOME": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "rundir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
   "dump": {
-    "ignore": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "notFound": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "sitefile": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "middlewares": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "httpClient": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "strict": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+    "enable": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "encoding": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "formLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "jsonLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "strict": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "depth": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "depth": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "parameterLimit": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "env": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "level": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+    "dir": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "encoding": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "env": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "level": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "consoleLevel": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "outputJSON": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "buffer": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "appLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "coreLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "agentLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "errorLogName": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheLookupInterval": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
     "request": {
-      "timeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "maxSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "freeSocketTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "maxSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "maxFreeSockets": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "logging": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "enable": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "logging": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
-  "coreMiddleware": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-  "serverTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "workerStartTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+  "serverTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "port": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+      "path": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "port": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+      "hostname": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
+    "responseTimeout": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js"
   },
-  "onClientError": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg\\config\\config.default.js",
+  "onClientError": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg@2.22.2@egg\\config\\config.default.js",
   "test": {
-    "key": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\egg-ydauthorization-framework\\config\\config.default.js"
-  }
+    "key": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js"
+  },
+  "ydAuthorization": "F:\\git\\egg-ydauthorization-framework-example2\\node-pms-server\\node_modules\\_egg-ydauthorization-framework@1.0.0@egg-ydauthorization-framework\\config\\config.default.js"
 }

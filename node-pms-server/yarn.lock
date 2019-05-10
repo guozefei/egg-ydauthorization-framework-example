@@ -1732,7 +1732,7 @@ comment-parser@^0.5.4:
   version "0.5.4"
   resolved "http://npm.deploy.ml/comment-parser/-/comment-parser-0.5.4.tgz#089840b9cccacad2b769b231ed43081d501b9487"
 
-common-bin@^2.8.1:
+common-bin@^2.8.0, common-bin@^2.8.1:
   version "2.8.1"
   resolved "http://npm.deploy.ml/common-bin/-/common-bin-2.8.1.tgz#445b9bcb0df97de2c90cc09d5b49b6f8c46d820d"
   dependencies:
@@ -2114,6 +2114,15 @@ duplexer@~0.1.1:
   version "0.1.1"
   resolved "http://npm.deploy.ml/duplexer/-/duplexer-0.1.1.tgz#ace6ff808c1ce66b57d1ebf97977acb02334cfc1"
 
+duplexify@^3.6.0:
+  version "3.7.1"
+  resolved "http://npm.deploy.ml/duplexify/-/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
+  dependencies:
+    end-of-stream "^1.0.0"
+    inherits "^2.0.1"
+    readable-stream "^2.0.0"
+    stream-shift "^1.0.0"
+
 eastasianwidth@^0.2.0:
   version "0.2.0"
   resolved "http://npm.deploy.ml/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
@@ -2337,6 +2346,21 @@ egg-schedule@^3.6.0:
     safe-timers "^1.1.0"
     utility "^1.13.1"
 
+egg-scripts@^2.11.0:
+  version "2.11.0"
+  resolved "http://npm.deploy.ml/egg-scripts/-/egg-scripts-2.11.0.tgz#61c94d7c204ca5f887cc522dd67f95f722169741"
+  dependencies:
+    common-bin "^2.8.0"
+    debug "^4.1.0"
+    egg-utils "^2.4.1"
+    moment "^2.23.0"
+    mz "^2.7.0"
+    mz-modules "^2.1.0"
+    node-homedir "^1.1.1"
+    runscript "^1.3.0"
+    source-map-support "^0.5.9"
+    zlogger "^1.1.0"
+
 egg-security@^2.4.3:
   version "2.5.0"
   resolved "http://npm.deploy.ml/egg-security/-/egg-security-2.5.0.tgz#9fbbc322082c8c0159d553f834979d7c717be580"
@@ -2418,7 +2442,7 @@ egg-ydauthorization-framework@../egg-ydauthorization-framework:
   dependencies:
     egg "^2.3.0"
 
-egg@^2.3.0:
+egg@^2.15.1, egg@^2.3.0:
   version "2.22.2"
   resolved "http://npm.deploy.ml/egg/-/egg-2.22.2.tgz#bd2f95e4b4667838d9d9e4b26982d92bcae15f89"
   dependencies:
@@ -2492,7 +2516,7 @@ empower@^1.3.1:
     core-js "^2.0.0"
     empower-core "^1.2.0"
 
-end-of-stream@^1.1.0:
+end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   version "1.4.1"
   resolved "http://npm.deploy.ml/end-of-stream/-/end-of-stream-1.4.1.tgz#ed29634d19baba463b6ce6b80a37213eab71ec43"
   dependencies:
@@ -3762,7 +3786,7 @@ is-symbol@^1.0.2:
   dependencies:
     has-symbols "^1.0.0"
 
-is-type-of@^1.0.0, is-type-of@^1.2.0, is-type-of@^1.2.1:
+is-type-of@^1.0.0, is-type-of@^1.1.0, is-type-of@^1.2.0, is-type-of@^1.2.1:
   version "1.2.1"
   resolved "http://npm.deploy.ml/is-type-of/-/is-type-of-1.2.1.tgz#e263ec3857aceb4f28c47130ec78db09a920f8c5"
   dependencies:
@@ -4396,7 +4420,7 @@ moment-timezone@^0.5.23:
   dependencies:
     moment ">= 2.9.0"
 
-"moment@>= 2.9.0", moment@^2.22.2, moment@^2.24.0:
+"moment@>= 2.9.0", moment@^2.22.2, moment@^2.23.0, moment@^2.24.0:
   version "2.24.0"
   resolved "http://npm.deploy.ml/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
 
@@ -5238,12 +5262,27 @@ pseudomap@^1.0.2:
   version "1.0.2"
   resolved "http://npm.deploy.ml/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
+pump@^2.0.0:
+  version "2.0.1"
+  resolved "http://npm.deploy.ml/pump/-/pump-2.0.1.tgz#12399add6e4cf7526d973cbc8b5ce2e2908b3909"
+  dependencies:
+    end-of-stream "^1.1.0"
+    once "^1.3.1"
+
 pump@^3.0.0:
   version "3.0.0"
   resolved "http://npm.deploy.ml/pump/-/pump-3.0.0.tgz#b4a2116815bde2f4e1ea602354e8c75565107a64"
   dependencies:
     end-of-stream "^1.1.0"
     once "^1.3.1"
+
+pumpify@^1.3.5:
+  version "1.5.1"
+  resolved "http://npm.deploy.ml/pumpify/-/pumpify-1.5.1.tgz#36513be246ab27570b1a374a5ce278bfd74370ce"
+  dependencies:
+    duplexify "^3.6.0"
+    inherits "^2.0.3"
+    pump "^2.0.0"
 
 punycode@^2.1.0:
   version "2.1.1"
@@ -5513,6 +5552,13 @@ run-async@^2.2.0:
   dependencies:
     is-promise "^2.1.0"
 
+runscript@^1.3.0:
+  version "1.3.0"
+  resolved "http://npm.deploy.ml/runscript/-/runscript-1.3.0.tgz#291e77cbe23580c00ea7c0eb1d208fac86aa1306"
+  dependencies:
+    debug "^2.6.8"
+    is-type-of "^1.1.0"
+
 rxjs@^6.4.0:
   version "6.5.2"
   resolved "http://npm.deploy.ml/rxjs/-/rxjs-6.5.2.tgz#2e35ce815cd46d84d02a209fb4e5921e051dbec7"
@@ -5780,6 +5826,12 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
+split2@^2.1.0:
+  version "2.2.0"
+  resolved "http://npm.deploy.ml/split2/-/split2-2.2.0.tgz#186b2575bcf83e85b7d18465756238ee4ee42493"
+  dependencies:
+    through2 "^2.0.2"
+
 split@0.3:
   version "0.3.3"
   resolved "http://npm.deploy.ml/split/-/split-0.3.3.tgz#cd0eea5e63a211dfff7eb0f091c4133e2d0dd28f"
@@ -5810,6 +5862,10 @@ stream-combiner@~0.0.4:
   resolved "http://npm.deploy.ml/stream-combiner/-/stream-combiner-0.0.4.tgz#4d5e433c185261dde623ca3f44c586bcf5c4ad14"
   dependencies:
     duplexer "~0.1.1"
+
+stream-shift@^1.0.0:
+  version "1.0.0"
+  resolved "http://npm.deploy.ml/stream-shift/-/stream-shift-1.0.0.tgz#d5c752825e5367e786f78e18e445ea223a155952"
 
 stream-slice@^0.1.2:
   version "0.1.2"
@@ -6019,7 +6075,7 @@ throat@^4.0.0:
   version "4.1.0"
   resolved "http://npm.deploy.ml/throat/-/throat-4.1.0.tgz#89037cbc92c56ab18926e6ba4cbb200e15672a6a"
 
-through2@^2.0.3:
+through2@^2.0.1, through2@^2.0.2, through2@^2.0.3:
   version "2.0.5"
   resolved "http://npm.deploy.ml/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
   dependencies:
@@ -6381,7 +6437,7 @@ yallist@^3.0.0, yallist@^3.0.2:
   version "3.0.3"
   resolved "http://npm.deploy.ml/yallist/-/yallist-3.0.3.tgz#b4b049e314be545e3ce802236d6cd22cd91c3de9"
 
-yargs-parser@13.0.0:
+yargs-parser@13.0.0, yargs-parser@^13.0.0:
   version "13.0.0"
   resolved "http://npm.deploy.ml/yargs-parser/-/yargs-parser-13.0.0.tgz#3fc44f3e76a8bdb1cc3602e860108602e5ccde8b"
   dependencies:
@@ -6391,13 +6447,6 @@ yargs-parser@13.0.0:
 yargs-parser@^11.0.0, yargs-parser@^11.1.1:
   version "11.1.1"
   resolved "http://npm.deploy.ml/yargs-parser/-/yargs-parser-11.1.1.tgz#879a0865973bca9f6bab5cbdf3b1c67ec7d3bcf4"
-  dependencies:
-    camelcase "^5.0.0"
-    decamelize "^1.2.0"
-
-yargs-parser@^13.0.0:
-  version "13.1.0"
-  resolved "http://npm.deploy.ml/yargs-parser/-/yargs-parser-13.1.0.tgz#7016b6dd03e28e1418a510e258be4bff5a31138f"
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
@@ -6500,3 +6549,11 @@ ypkgfiles@^1.6.0:
     is-type-of "^1.0.0"
     resolve-files "^1.0.0"
     yargs "^7.0.1"
+
+zlogger@^1.1.0:
+  version "1.1.0"
+  resolved "http://npm.deploy.ml/zlogger/-/zlogger-1.1.0.tgz#bc0d4a1a50d88b4e027636060c7a23682754744e"
+  dependencies:
+    pumpify "^1.3.5"
+    split2 "^2.1.0"
+    through2 "^2.0.1"

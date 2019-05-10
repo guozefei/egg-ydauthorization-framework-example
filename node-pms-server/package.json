@@ -4,9 +4,12 @@
   "description": "",
   "private": true,
   "egg": {
+    "declarations": true,
     "framework": "egg-ydauthorization-framework"
   },
   "dependencies": {
+    "egg": "^2.15.1",
+    "egg-scripts": "^2.11.0",
     "egg-ydauthorization-framework": "../egg-ydauthorization-framework"
   },
   "devDependencies": {
